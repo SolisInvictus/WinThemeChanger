@@ -153,5 +153,14 @@
   <ItemGroup>
     <Resource Include="Resources\Icons\Scales_Justice.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SolisInvictusLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinThemeChangerLib\WinThemeChangerLib.csproj">
+      <Project>{856835f3-d76d-45d5-887e-babd21cc5514}</Project>
+      <Name>WinThemeChangerLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -26,20 +26,20 @@
             <GroupBox Header="Tema Claro" Grid.Row="0" Grid.Column="0" Height="150" Width="240">
                 <StackPanel>
                     <Label Content="Horário de Início:" Margin="8,0"/>
-                    <xctk:MaskedTextBox Mask="00:00" ValueDataType="{x:Type s:String}" Height="23" TextWrapping="Wrap" Text="" Margin="8,0"/>
-                    <CheckBox Content="Alterar modo do Windows" Margin="8,8,8,0"/>
-                    <CheckBox Content="Alterar modo de aplicativo" Margin="8,8,8,0"/>
+                    <xctk:MaskedTextBox x:Name="mtbLightScheduledTime" Mask="00:00" ValueDataType="{x:Type s:String}" Height="23" TextWrapping="Wrap" Text="" Margin="8,0"/>
+                    <CheckBox x:Name="chkLightChangeWindowMode" Content="Alterar modo do Windows" Margin="8,8,8,0"/>
+                    <CheckBox x:Name="chkLightChangeApplicationMode" Content="Alterar modo de aplicativo" Margin="8,8,8,0"/>
                 </StackPanel>
             </GroupBox>
             <GroupBox Header="Tema Escuro" Height="150" Margin="8,0,0,0" Width="240" Grid.Row="0" Grid.Column="1">
                 <StackPanel>
                     <Label Content="Horário de Início:" Margin="8,0"/>
-                    <xctk:MaskedTextBox Mask="00:00" ValueDataType="{x:Type s:String}" Height="23" TextWrapping="Wrap" Text="" Margin="8,0"/>
-                    <CheckBox Content="Alterar modo do Windows" Margin="8,8,8,0"/>
-                    <CheckBox Content="Alterar modo de aplicativo" Margin="8,8,8,0"/>
+                    <xctk:MaskedTextBox x:Name="mtbDarkScheduledTime" Mask="00:00" ValueDataType="{x:Type s:String}" Height="23" TextWrapping="Wrap" Text="" Margin="8,0"/>
+                    <CheckBox x:Name="chkDarkChangeWindowMode" Content="Alterar modo do Windows" Margin="8,8,8,0"/>
+                    <CheckBox x:Name="chkDarkChangeApplicationMode" Content="Alterar modo de aplicativo" Margin="8,8,8,0"/>
                 </StackPanel>
             </GroupBox>
-            <Button Content="Salvar" Grid.Row="1" Grid.ColumnSpan="2" Width="75" Margin="0,8,0,0"/>
+            <Button x:Name="btnSave" Content="Salvar" Grid.Row="1" Grid.ColumnSpan="2" Width="75" Margin="206,8,206,0" Click="btnSave_Click" Height="20" VerticalAlignment="Top"/>
         </Grid>
     </DockPanel>
 </Window>
