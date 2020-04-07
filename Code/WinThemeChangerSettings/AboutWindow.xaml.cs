@@ -37,7 +37,7 @@ namespace WinThemeChangerSettings
 
         private void MPLLicense_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            Uri uri = new Uri("https://github.com/SolisInvictus/WinThemeChanger/blob/master/LICENSE");
+            Uri uri = new Uri("https://github.com/SolisInvictus/WinThemeChanger/blob/master/LICENSE.md");
             System.Diagnostics.Process.Start(uri.AbsoluteUri);
         }
 
