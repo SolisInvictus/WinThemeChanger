@@ -40,5 +40,11 @@ namespace WinThemeChangerSettings
             Uri uri = new Uri("https://github.com/SolisInvictus/WinThemeChanger/blob/master/LICENSE");
             System.Diagnostics.Process.Start(uri.AbsoluteUri);
         }
+
+        private void SolisInvictusImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            Uri uri = new Uri("https://github.com/SolisInvictus");
+            System.Diagnostics.Process.Start(uri.AbsoluteUri);
+        }
     }
 }

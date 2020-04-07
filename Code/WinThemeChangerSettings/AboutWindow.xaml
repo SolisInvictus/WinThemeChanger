@@ -30,7 +30,7 @@
         <Image Grid.Row="2" HorizontalAlignment="Left" Width="100" Source="Resources/GitHub_Logo.png" Cursor="Hand" MouseLeftButtonUp="GitHubImage_MouseLeftButtonUp" />
         <Image Grid.Row="2" Margin="32,0,0,0" Grid.Column="1" HorizontalAlignment="Left" Width="26" Source="Resources/Icons/Scales_Justice.png" Cursor="Hand" MouseLeftButtonUp="MPLLicense_MouseLeftButtonUp" />
         <Label Grid.Row="2" Grid.Column="2" Content="MPL-2.0" FontSize="18" VerticalAlignment="Center" Cursor="Hand" MouseLeftButtonUp="MPLLicense_MouseLeftButtonUp" />
-        <Label Grid.Row="2" Grid.Column="3" />
+        <Image Grid.Row="2" Margin="32,0,0,0" Grid.Column="3" HorizontalAlignment="Right" Height="41" Source="Resources/SolisInvictusLogo.png" Cursor="Hand" MouseLeftButtonUp="MPLLicense_MouseLeftButtonUp" />
 
         <Separator Grid.Row="3" Grid.ColumnSpan="5" />
         <Label Grid.Row="4" Content="Este programa utiliza os seguintes recursos de terceiros:" Grid.ColumnSpan="5" />
