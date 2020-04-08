@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WinThemeChangerSvc")]
-[assembly: AssemblyDescription("Serviço que faz a alteração do tema conforme definido nas configurações do App.")]
+[assembly: AssemblyTitle("Windows 10 Theme Changer Service")]
+[assembly: AssemblyDescription("Aplicativo que roda em segundo plano para fazer a alteração no tema conforme o definido nas configurações.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SolisInvictus Open Source Developer")]
 [assembly: AssemblyProduct("Windows 10 Theme Changer")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("bee5ae4a-55ee-4246-a6a5-2ff469e9910f")]
+[assembly: Guid("43ed7d08-914e-4ce9-884e-23ee80aa602f")]
 
 // Version information for an assembly consists of the following four values:
 //
