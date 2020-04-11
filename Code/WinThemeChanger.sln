@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinThemeChangerSettings", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinThemeChangerSvc", "WinThemeChangerSvc\WinThemeChangerSvc.csproj", "{43ED7D08-914E-4CE9-884E-23EE80AA602F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{D35FA525-5477-40BC-A2FA-07C35CC49E7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,8 @@ Global
 		{43ED7D08-914E-4CE9-884E-23EE80AA602F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43ED7D08-914E-4CE9-884E-23EE80AA602F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43ED7D08-914E-4CE9-884E-23EE80AA602F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35FA525-5477-40BC-A2FA-07C35CC49E7E}.Debug|Any CPU.ActiveCfg = Debug
+		{D35FA525-5477-40BC-A2FA-07C35CC49E7E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
