@@ -58,15 +58,31 @@
         </Grid>
 
         <Label Grid.Row="7" Content="Ícones e Imagens" Grid.ColumnSpan="5" FontWeight="Bold" />
-        <TextBlock TextWrapping="Wrap" Grid.Row="8" Grid.ColumnSpan="5" Margin="8,4,4,4">
-            Design do Logotipo GITHUB® por GitHub, Inc.
-            <LineBreak />
-            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/logos">https://github.com/logos</Hyperlink>
-        </TextBlock>
-        <TextBlock TextWrapping="Wrap" Grid.Row="9" Grid.ColumnSpan="5" Margin="8,4,4,4">
-            Ícones feito por Freepik
-            <LineBreak />
-            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.flaticon.com/authors/freepik">https://www.flaticon.com/authors/freepik</Hyperlink>
-        </TextBlock>
+        <Grid Grid.Row="8" Grid.ColumnSpan="5" Margin="4,4,4,4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock TextWrapping="Wrap" Grid.Row="0" Grid.Column="0" Margin="4,4,4,4">
+                Design do Logotipo GITHUB® por GitHub, Inc.
+                <LineBreak />
+                <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/logos">https://github.com/logos</Hyperlink>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="0" Margin="4,4,4,4">
+                Ícones feito por Freepik
+                <LineBreak />
+                <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.flaticon.com/authors/freepik">https://www.flaticon.com/authors/freepik</Hyperlink>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Grid.Row="3" Grid.Column="0" Margin="4,4,4,4" MaxWidth="500">
+                Logotipo, Banner e Nome "SolisInvictus" são de exclusividade do Desenvolvedor de codinome SolisInvictus.
+                <LineBreak />
+                <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.github.com/SolisInvictus">https://www.github.com/SolisInvictus</Hyperlink>
+            </TextBlock>
+        </Grid>
     </Grid>
 </Window>
