@@ -69,6 +69,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A60434CC30D7DA7DA88CCAC63A70694C"
         "OwnerKey" = "8:_4CF57F0135DF487682E3070FDABEFD4D"
         "MsmSig" = "8:_UNDEFINED"
@@ -200,6 +206,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -404,6 +418,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9E2CD785DE044C778BD7FDD318DA3972"
+            {
+            "SourcePath" = "8:D:\\Projects\\Design\\Trabalho\\SolisInvictus\\Banner\\MSI Installer\\Banner.bmp"
+            "TargetName" = "8:Banner.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_3908C85DA6F9424F8212BD35EC48F6F8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A60434CC30D7DA7DA88CCAC63A70694C"
@@ -625,7 +659,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows 10 Theme Changer"
         "ProductCode" = "8:{242F440C-913A-4B4E-945B-E393A1BF5A8C}"
-        "PackageCode" = "8:{55810F34-75A2-4B3C-A893-01EA4D91450E}"
+        "PackageCode" = "8:{D9392BD8-3DBC-4857-9575-1E98856E116D}"
         "UpgradeCode" = "8:{DAEBA7FA-A789-458F-8A80-C0A13D8ADCE5}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -836,7 +870,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -880,7 +915,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -928,7 +964,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -950,7 +987,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -985,7 +1023,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "EulaText"
@@ -1041,7 +1080,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -1085,7 +1125,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "EulaText"
@@ -1132,7 +1173,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1154,7 +1196,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -1202,7 +1245,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1239,7 +1283,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -1289,7 +1334,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_9E2CD785DE044C778BD7FDD318DA3972"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
